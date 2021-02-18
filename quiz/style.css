@@ -1,0 +1,47 @@
+#app-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 40px 20px;
+}
+
+#questions-container {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(3, max-content);
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+#score-container {
+  position: fixed;
+  right: 80px;
+  top: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  background: rgb(158, 209, 243);
+  padding: 10px 15px;
+  min-width: 50px;
+  min-height: 45px;
+  border-radius: 10px;
+}
+
+#app-title {
+  margin-top: 0;
+  margin-bottom: 70px;
+  margin: 0 0 40px 20px;
+  color: rgb(158, 209, 243);
+  font-style: oblique;
+  font-size: 100px;
+  right: 500px;
+  top: 40px;
+  position: center;
+}
